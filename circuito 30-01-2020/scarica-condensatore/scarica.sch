@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=0,0,925,935,0.826446,0,0>
+  <View=0,0,1180,935,0.826446,0,0>
   <Grid=10,10,1>
   <DataSet=scarica.dat>
   <DataDisplay=scarica.dpl>
@@ -24,6 +24,7 @@
   <Switch S1 1 140 370 11 -26 0 1 "off" 0 "1s" 0 "0" 0 "1e12" 0 "26.85" 0 "1e-6" 0 "spline" 0>
   <.TR TR1 1 750 280 0 65 0 0 "lin" 1 "0" 1 "4 s" 1 "200" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
   <C C1 1 520 470 17 -26 0 1 "33 uF" 1 "12 V" 0 "neutral" 0>
+  <Eqn equazioni1 1 860 550 -36 16 0 0 "tau=R1.R*C1.C" 1 "tempo=tau*5" 1 "yes" 0>
 </Components>
 <Wires>
   <520 280 520 440 "" 0 0 0 "">
@@ -51,6 +52,10 @@
   <Rect 480 820 318 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 "time" "" "">
 	<"It.It" #ff0000 0 3 0 0 0>
   </Rect>
+  <Tab 840 723 182 49 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"tau" #0000ff 0 3 1 0 0>
+	<"tempo" #0000ff 0 3 1 0 0>
+  </Tab>
 </Diagrams>
 <Paintings>
 </Paintings>
