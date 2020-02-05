@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.2)  5 FEB 2020 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.2)  5 FEB 2020 20:42
 entering extended mode
 **./relazione.tex
 (relazione.tex
@@ -173,141 +173,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 File: data/condensatore-reale.jpg Graphic file (type jpg)
 <use data/condensatore-reale.jpg>
 Package pdftex.def Info: data/condensatore-reale.jpg  used on input line 51.
-(pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
+(pdftex.def)             Requested size: 97.5pt x 97.49228pt.
 <data/PCB-capacitor.png, id=12, 694.79376pt x 584.5999pt>
 File: data/PCB-capacitor.png Graphic file (type png)
 <use data/PCB-capacitor.png>
-Package pdftex.def Info: data/PCB-capacitor.png  used on input line 54.
-(pdftex.def)             Requested size: 117.00119pt x 98.44403pt.
+Package pdftex.def Info: data/PCB-capacitor.png  used on input line 55.
+(pdftex.def)             Requested size: 97.5pt x 82.03075pt.
 <data/condensatore-elettrolitico-valvola.jpg, id=13, 803.0pt x 803.0pt>
 File: data/condensatore-elettrolitico-valvola.jpg Graphic file (type jpg)
 <use data/condensatore-elettrolitico-valvola.jpg>
 Package pdftex.def Info: data/condensatore-elettrolitico-valvola.jpg  used on i
-nput line 58.
-(pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
+nput line 60.
+(pdftex.def)             Requested size: 97.5pt x 97.49535pt.
 <data/capacitors-types.png, id=14, 446.4998pt x 301.24426pt>
 File: data/capacitors-types.png Graphic file (type png)
 <use data/capacitors-types.png>
-Package pdftex.def Info: data/capacitors-types.png  used on input line 61.
-(pdftex.def)             Requested size: 117.00119pt x 78.9376pt.
+Package pdftex.def Info: data/capacitors-types.png  used on input line 64.
+(pdftex.def)             Requested size: 97.5pt x 65.7821pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+Underfull \hbox (badness 10000) in paragraph at lines 70--79
 
  []
 
 [2 <./data/condensatore-reale.jpg> <./data/PCB-capacitor.png> <./data/condensat
 ore-elettrolitico-valvola.jpg> <./data/capacitors-types.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 82.
+(Font)              <5> on input line 86.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
 
  []
 
 [3]
-<data/carica-open.png, id=28, 384.96297pt x 555.97812pt>
+<data/carica-open.png, id=29, 384.96297pt x 555.97812pt>
 File: data/carica-open.png Graphic file (type png)
 <use data/carica-open.png>
-Package pdftex.def Info: data/carica-open.png  used on input line 99.
+Package pdftex.def Info: data/carica-open.png  used on input line 103.
 (pdftex.def)             Requested size: 117.00119pt x 168.97499pt.
-<data/carica-closed.png, id=29, 384.96297pt x 555.97812pt>
+<data/carica-closed.png, id=30, 384.96297pt x 555.97812pt>
 File: data/carica-closed.png Graphic file (type png)
 <use data/carica-closed.png>
-Package pdftex.def Info: data/carica-closed.png  used on input line 102.
+Package pdftex.def Info: data/carica-closed.png  used on input line 106.
 (pdftex.def)             Requested size: 117.00119pt x 168.97499pt.
-<data/carica-tensioni.png, id=30, 445.06871pt x 585.31544pt>
+<data/carica-tensioni.png, id=31, 445.06871pt x 585.31544pt>
 File: data/carica-tensioni.png Graphic file (type png)
 <use data/carica-tensioni.png>
-Package pdftex.def Info: data/carica-tensioni.png  used on input line 105.
+Package pdftex.def Info: data/carica-tensioni.png  used on input line 109.
 (pdftex.def)             Requested size: 135.33005pt x 177.97168pt.
-<data/carica-VC.png, id=31, 577.40718pt x 259.7203pt>
+<data/carica-VC.png, id=32, 577.40718pt x 259.7203pt>
 File: data/carica-VC.png Graphic file (type png)
 <use data/carica-VC.png>
-Package pdftex.def Info: data/carica-VC.png  used on input line 115.
-(pdftex.def)             Requested size: 117.00119pt x 52.62477pt.
-<data/carica-VR.png, id=32, 577.40718pt x 259.7203pt>
+Package pdftex.def Info: data/carica-VC.png  used on input line 122.
+(pdftex.def)             Requested size: 191.10214pt x 85.95763pt.
+<data/carica-VR.png, id=33, 577.40718pt x 259.7203pt>
 File: data/carica-VR.png Graphic file (type png)
 <use data/carica-VR.png>
-Package pdftex.def Info: data/carica-VR.png  used on input line 118.
-(pdftex.def)             Requested size: 117.00119pt x 52.62477pt.
-<data/carica-IT.png, id=33, 600.74437pt x 259.7203pt>
-File: data/carica-IT.png Graphic file (type png)
-<use data/carica-IT.png>
-Package pdftex.def Info: data/carica-IT.png  used on input line 121.
-(pdftex.def)             Requested size: 117.00119pt x 50.57986pt.
+Package pdftex.def Info: data/carica-VR.png  used on input line 125.
+(pdftex.def)             Requested size: 191.10214pt x 85.95763pt.
  [4 <./data/carica-open.png> <./data/carica-closed.png> <./data/carica-tensioni
-.png> <./data/carica-VC.png> <./data/carica-VR.png> <./data/carica-IT.png>]
+.png> <./data/carica-VC.png> <./data/carica-VR.png>]
 <data/scarica-open.png, id=40, 384.96297pt x 555.97812pt>
 File: data/scarica-open.png Graphic file (type png)
 <use data/scarica-open.png>
-Package pdftex.def Info: data/scarica-open.png  used on input line 132.
+Package pdftex.def Info: data/scarica-open.png  used on input line 142.
 (pdftex.def)             Requested size: 117.00119pt x 168.97499pt.
 <data/scarica-closed.png, id=41, 384.96297pt x 555.97812pt>
 File: data/scarica-closed.png Graphic file (type png)
 <use data/scarica-closed.png>
-Package pdftex.def Info: data/scarica-closed.png  used on input line 135.
+Package pdftex.def Info: data/scarica-closed.png  used on input line 145.
 (pdftex.def)             Requested size: 117.00119pt x 168.97499pt.
 <data/scarica-tensioni.png, id=42, 445.06871pt x 585.31544pt>
 File: data/scarica-tensioni.png Graphic file (type png)
 <use data/scarica-tensioni.png>
-Package pdftex.def Info: data/scarica-tensioni.png  used on input line 138.
+Package pdftex.def Info: data/scarica-tensioni.png  used on input line 148.
 (pdftex.def)             Requested size: 135.33005pt x 177.97168pt.
 <data/scarica-VC.png, id=43, 583.42969pt x 259.7203pt>
 File: data/scarica-VC.png Graphic file (type png)
 <use data/scarica-VC.png>
-Package pdftex.def Info: data/scarica-VC.png  used on input line 147.
+Package pdftex.def Info: data/scarica-VC.png  used on input line 159.
 (pdftex.def)             Requested size: 117.00119pt x 52.08183pt.
 <data/scarica-VR.png, id=44, 577.40718pt x 259.7203pt>
 File: data/scarica-VR.png Graphic file (type png)
 <use data/scarica-VR.png>
-Package pdftex.def Info: data/scarica-VR.png  used on input line 150.
+Package pdftex.def Info: data/scarica-VR.png  used on input line 162.
 (pdftex.def)             Requested size: 117.00119pt x 52.62477pt.
 <data/scarica-IT.png, id=45, 600.74437pt x 259.7203pt>
 File: data/scarica-IT.png Graphic file (type png)
 <use data/scarica-IT.png>
-Package pdftex.def Info: data/scarica-IT.png  used on input line 153.
+Package pdftex.def Info: data/scarica-IT.png  used on input line 165.
 (pdftex.def)             Requested size: 117.00119pt x 50.57986pt.
-
-[5 <./data/scarica-open.png> <./data/scarica-closed.png> <./data/scarica-tensio
-ni.png> <./data/scarica-VC.png> <./data/scarica-VR.png> <./data/scarica-IT.png>
-]
+ [5 <./data/scarica-open.png> <./data/scarica-closed.png> <./data/scarica-tensi
+oni.png> <./data/scarica-VC.png> <./data/scarica-VR.png> <./data/scarica-IT.png
+>]
 <data/carica-simulazione-qucs.png, id=52, 1014.79124pt x 507.39563pt>
 File: data/carica-simulazione-qucs.png Graphic file (type png)
 <use data/carica-simulazione-qucs.png>
 Package pdftex.def Info: data/carica-simulazione-qucs.png  used on input line 1
-64.
+76.
 (pdftex.def)             Requested size: 390.0pt x 194.99565pt.
 <data/scarica-simulazione-qucs.png, id=53, 1116.42094pt x 551.05875pt>
 File: data/scarica-simulazione-qucs.png Graphic file (type png)
 <use data/scarica-simulazione-qucs.png>
 Package pdftex.def Info: data/scarica-simulazione-qucs.png  used on input line 
-170.
+182.
 (pdftex.def)             Requested size: 390.0pt x 192.50346pt.
  [6 <./data/carica-simulazione-qucs.png> <./data/scarica-simulazione-qucs.png>]
  [7] (relazione.aux) ) 
 Here is how much of TeX's memory you used:
- 2561 strings out of 492444
- 40716 string characters out of 3133353
- 105722 words of memory out of 3000000
- 6922 multiletter control sequences out of 15000+200000
- 9017 words of font info for 32 fonts, out of 3000000 for 9000
+ 2557 strings out of 492444
+ 40625 string characters out of 3133353
+ 106722 words of memory out of 3000000
+ 6919 multiletter control sequences out of 15000+200000
+ 9317 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,7n,46p,464b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,7n,46p,464b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Progra
 mmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Programmi/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programmi/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programmi/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on relazione.pdf (7 pages, 2181227 bytes).
+type1/public/amsfonts/cm/cmr10.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programmi/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programmi/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti12.pfb><D:/Programmi/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb>
+Output written on relazione.pdf (7 pages, 2184200 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

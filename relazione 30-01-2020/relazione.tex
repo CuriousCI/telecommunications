@@ -47,18 +47,22 @@ come nel caso della (Figura tot). In particolare c'e' un discorso da fare sui co
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/condensatore-reale.jpg}
+    \caption*{hello}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/PCB-capacitor.png}
+    \caption*{hello}
   \end{subfigure}
   
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/condensatore-elettrolitico-valvola.jpg}
+    \caption*{hello}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/capacitors-types.png}
+    \caption*{hello}
   \end{subfigure}
 \end{figure}
 
@@ -106,21 +110,27 @@ avendo infatti x = 100(1 - e\textsuperscript{-t/$\tau$}), dove x indica la perce
   \end{subfigure}
 \end{figure}
 
+Il circuito progettato per la carica del condensatore nella prima figura si possono individuare G = 12V, R = 10k$\Omega$, C = 33$\mu$F. Asserito cio', si puo' determinare che 
+$\tau$ = 1$\cdot$10\textsuperscript{4}$\cdot$ 33$\cdot$10\textsuperscript{-5} $\Rightarrow$ $\tau$ = 0.33, avendo infine t = 1.65 . \\
+In particolare l'interruttore S verra' chiuso dopo 1 secondo, quindi si puo' ipotizzare che il condensatore sara' completamente carico a 2.65 secondi della simulazione, quindi una simulazione di 4 secondi e' piu' che sufficiente per far raggiungere al condensatore una carica del 99\% (il condensatore, al livello teorico infatti, ci mette un tempo $\infty$ per caricarsi al massimo)
 
 
 \subsection*{grafici carica}
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.49\linewidth}
     \includegraphics[width=\linewidth]{data/carica-VC.png}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.49\linewidth}
     \includegraphics[width=\linewidth]{data/carica-VR.png}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
-    \includegraphics[width=\linewidth]{data/carica-IT.png}
-  \end{subfigure}
+  
+  %\begin{subfigure}[b]{0.45\linewidth}
+  %  \includegraphics[width=\linewidth]{data/carica-IT.png}
+  %\end{subfigure}
 \end{figure}
+Dai grafici risultanti dalla simulazione possiamo notare i risultati ipotizzati corrispondono a quelli effettivi: l'andamento di VC e' di tipo esponenziale, oltretutto si puo' notare che VR scende in modo esponenziale, fenomeno che si puo' spiegare con la legge di Kirchhoff sulle maglie: VG = VR + VC, quindi, se VC aumenta, perche' l'equazione sia vera, VR deve scendere.
+\enlargethispage{\baselineskip}
 
 
 \newpage
@@ -138,6 +148,8 @@ avendo infatti x = 100(1 - e\textsuperscript{-t/$\tau$}), dove x indica la perce
     \includegraphics[width=\linewidth]{data/scarica-tensioni.png}
   \end{subfigure}
 \end{figure}
+
+Le stesse formule e regole applicate per il circuito di carica sono valide anche per il circuito di scarica. L'unica particolarita' e' che nel circuito d scarica viene rimosso il generatore, e la tensione VC iniziale viene impostata a 12 V, avedo come risultato che il condensatore si comporta come un generatore.
 
 \subsection*{grafici scarica}
 
