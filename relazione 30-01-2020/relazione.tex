@@ -3,6 +3,8 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{url}
+\usepackage{fixltx2e}
 %\usepackage{subcaptions}
 
 \pagenumbering{gobble}
@@ -16,17 +18,23 @@
 \maketitle
 
 \section*{Obiettivo}
-\blindtext[1]
+Dimostrare e spiegare il funzionamento di carica e di scarica di un condensatore,
+simulando i due circuiti su qucs, ed elaborando i grafici risultanti dalla simulazione.
 
 \section*{Strumenti}
-\blindtext[1]
+qucs versione 0.0.19 (\url{http://qucs.sourceforge.net/})
 
-\newpage
 \section*{Spiegazione teorica}
-\subsubsection*{funzionamento}
-\blindtext[1]
-\subsubsection*{formule e grafici}
-\blindtext[1]
+
+\subsection*{definizione}
+Il condensatore e un componente elettronico che ha la capacita' di immagazinare energia sotto forma di campo elettrostatico. \\
+Tale energia, nel caso di un condensatore ideale, viene conservata all'infinito (nel caso reale, essendo che tutto e' fatto di materiale, tutto ha una resistenza, per cui, anche se dopo molto, il condensatore si scarica)
+
+\subsection*{composizione}
+Il condensatore e' composto da due conduttori detti armature, o piatti, separati da un materiale isolante detto dielettrico
+
+\subsection*{formule e grafici}
+C=$\epsilon$\textsubscript{0}$\epsilon$\textsubscript{r}$\frac{S}{d}$
 
 %\caption{caption}
 %\label{fig:label}
@@ -48,7 +56,7 @@
   \end{subfigure}
 \end{figure}
 
-\subsubsection*{grafici carica}
+\subsection*{grafici carica}
 \begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.3\linewidth}
@@ -79,7 +87,7 @@
   \end{subfigure}
 \end{figure}
 
-\subsubsection*{grafici scarica}
+\subsection*{grafici scarica}
 
 \begin{figure}[h!]
   \centering
@@ -98,13 +106,13 @@
 
 \section*{simulazione con qucs}
 
-\subsubsection*{carica}
+\subsection*{carica}
 
 \begin{figure}[!h]
   \includegraphics[width=\linewidth]{data/carica-simulazione-qucs.png}
 \end{figure}
 
-\subsubsection*{scarica}
+\subsection*{scarica}
 
 \begin{figure}[!h]
   \includegraphics[width=\linewidth]{data/scarica-simulazione-qucs.png}
