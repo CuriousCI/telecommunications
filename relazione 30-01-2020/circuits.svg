@@ -69,8 +69,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44979495"
-     inkscape:cx="-2666.8283"
-     inkscape:cy="353.59319"
+     inkscape:cx="2707.1249"
+     inkscape:cy="211.09199"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,7 +115,10 @@
        style="fill:#ffffff;stroke:none;stroke-width:0.20092843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M -961.19438,297.46886 V 91.887611 h 244.14079 V 297.46886 Z"
        id="path1463"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Projects\school\telecomunicazioni\relazione 30-01-2020\data\PCB-capacitor.png"
+       inkscape:export-xdpi="101"
+       inkscape:export-ydpi="101" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:100;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1338"
@@ -2561,7 +2564,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-132.02885,247.53955)"
+       transform="matrix(1,0,0,-1,-132.02885,437.49202)"
        style="stroke:#000080"
        id="g3174">
       <g
@@ -2611,7 +2614,7 @@
     <g
        style="stroke:#000080"
        id="g3192"
-       transform="matrix(0,-1,-1,0,910.37853,1290.4613)">
+       transform="rotate(-90,1005.4437,285.01762)">
       <g
          id="g3182"
          transform="translate(926.62797,-46.922283)"

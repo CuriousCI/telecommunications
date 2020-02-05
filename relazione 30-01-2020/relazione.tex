@@ -155,37 +155,39 @@ Le stesse formule e regole applicate per il circuito di carica sono valide anche
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.49\linewidth}
     \includegraphics[width=\linewidth]{data/scarica-VC.png}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
+  \begin{subfigure}[b]{0.49\linewidth}
     \includegraphics[width=\linewidth]{data/scarica-VR.png}
   \end{subfigure}
-  \begin{subfigure}[b]{0.3\linewidth}
-    \includegraphics[width=\linewidth]{data/scarica-IT.png}
-  \end{subfigure}
+  %\begin{subfigure}[b]{1\linewidth}
+  %  \includegraphics[width=\linewidth]{data/scarica-IT.png}
+  %\end{subfigure}
 \end{figure}
+
+Per la scarica, a differenza della carica, la tensione VC e' negativa (va da -12 a 1), e la tensione VR scende anziche' salire, perche', essendo il condensatore C l'unica sorgente di tensione, la tensione VR scende per il fatto che C si scarica.
 
 \newpage
 
 \section*{simulazione con qucs}
+Gli schemi precedentemente descritti, ed i grafici ottenuti, realizzati e simulati su qucs provengono dalle simulazioni seguenti:  
 
 \subsection*{carica}
 
 \begin{figure}[!h]
-  \includegraphics[width=\linewidth]{data/carica-simulazione-qucs.png}
+  \includegraphics[width=0.9\linewidth]{data/carica-simulazione-qucs.png}
 \end{figure}
 
 \subsection*{scarica}
 
 \begin{figure}[!h]
-  \includegraphics[width=\linewidth]{data/scarica-simulazione-qucs.png}
+  \includegraphics[width=0.9\linewidth]{data/scarica-simulazione-qucs.png}
 \end{figure}
 
 \newpage
 
 \section*{conclusioni e osservazioni}
-\blindtext[1]
 
 
 \end{document}
