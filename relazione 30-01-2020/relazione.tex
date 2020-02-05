@@ -15,7 +15,7 @@
 
 \title{carica e scarica di un condensatore}
 \author{Ionut Cicio 3Binf.}
-\date{02/02/2020}
+\date{31-01-2020}
 
 \maketitle
 
@@ -29,7 +29,7 @@ qucs versione 0.0.19 (\url{http://qucs.sourceforge.net/})
 \section*{Spiegazione teorica}
 
 \subsection*{definizione}
-Il condensatore e un componente elettronico che ha la capacita' di immagazinare energia sotto forma di campo elettrostatico. \\
+Il condensatore (\textit{"capacitor"} in inglese) e' un componente elettronico che ha la capacita' di immagazinare energia sotto forma di campo elettrostatico. \\
 Tale energia, nel caso di un condensatore ideale, viene conservata all'infinito.\\
 (nel caso reale, essendo che tutto e' fatto di materiale, tutto ha una resistenza, per cui, anche se molto lentamente, il condensatore si scarica)
 
@@ -39,34 +39,33 @@ In particolare, quando viene applicata una tensione ai capi delle armature, le p
 Cio' e dimostrabile dal fatto che il condensatore si riscalda, fenomeno dovuto all'attrito generato dalla rotazione di queste cariche. \\
 
 Su ogni condensatore vengono indicati la capacita' e la tensione 
-massima supportata (Figura tot) (infatti, se viene applicata una tensione troppo alta, gli elettroni del dielettrico raggiungono la banda di conduzione, per cui il dielettrico viene attraversato da una carica \textit{distruptiva}, e il condensatore esplode; anche nel caso in cui il dielettrico
-sopravvive, come nei condensatori ad aria, le armature si possono fondere). \\
+massima supportata (figura 1) (infatti, se viene applicata una tensione troppo alta, gli elettroni del dielettrico raggiungono la banda di conduzione, per cui il dielettrico viene attraversato da una carica \textit{distruptiva}, e il condensatore esplode; anche nel caso in cui il dielettrico
+sopravvive, come nei condensatori ad aria, le armature si possono comunque fondere). \\
 
-Esistono diversi tipi di condensatori come indicato nella (Figura tot): ceramici, a poliestere, variabili, ed elettrolitici; esistono piccoli condensatori che si attaccano direttamente all PCB
-come nel caso della (Figura tot). In particolare c'e' un discorso da fare sui condensatori elettrolitici: oltre ad essere polarizzati (quindi vanno inseriti nel verso corretto, altrimenti possono rompersi), essendo condensatori in genere molto capienti, contenenti acido, hanno una \textit{"valvola"} nella parte superiore, per rilasciare la pressione nel caso di tensioni troppo elevate, in modo da non esplodere (Figura tot). \\ 
+Esistono diversi tipi di condensatori (figura 4): ceramici, a poliestere, variabili, ed elettrolitici; esistono piccoli condensatori che si attaccano direttamente all PCB (figura 2, C3). In particolare c'e' un discorso da fare sui condensatori elettrolitici: oltre ad essere polarizzati (quindi vanno inseriti nel verso corretto, altrimenti possono rompersi), essendo condensatori in genere molto capienti, contenenti acido, hanno una \textit{"valvola"} nella parte superiore, per rilasciare la pressione nel caso di tensioni troppo elevate, in modo da non esplodere (figura 3). \\ 
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/condensatore-reale.jpg}
-    \caption*{hello}
+    \caption*{figura 1}
   \end{subfigure}
   \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/PCB-capacitor.png}
-    \caption*{hello}
+    \caption*{figura 2}
   \end{subfigure}
   
   \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/condensatore-elettrolitico-valvola.jpg}
-    \caption*{hello}
+    \caption*{figura 3}
   \end{subfigure}
   \begin{subfigure}[b]{0.25\linewidth}
     \includegraphics[width=\linewidth]{data/capacitors-types.png}
-    \caption*{hello}
+    \caption*{figura 4}
   \end{subfigure}
 \end{figure}
 
-\subsection*{formule e grafici}
+\subsection*{formule relative al condensatore}
 Per determinare la capacita' effettiva del condensatore, basandoci sulla sua composizione fisica e chimica si usa la formula 
 %\begin{equation}
 %C=\varepsilon\textsubscript{0}\varepsilon\textsubscript{r}\frac{S}{d}
@@ -85,13 +84,10 @@ la capacita' C del condensatore e la resistenza totale R, vista dal condensatore
 La curva di carica e di scarica del condensatore e' di tipo esponenziale, avendo
 Q(t) = $\varepsilon$C(1 - e\textsuperscript{-t/$\tau$}).
 Sapendo che Q = CV $\Rightarrow$ V = $\frac{Q}{C}$, si avra' \\
-V(t) = $\varepsilon$(1 - e\textsuperscript{-t/$\tau$}) (Figura tot). \\
+V(t) = $\varepsilon$(1 - e\textsuperscript{-t/$\tau$}). \\
 
 Anche la percentuale di carica del condensatore in funzione al tempo e' di tipo esponenziale
 avendo infatti x = 100(1 - e\textsuperscript{-t/$\tau$}), dove x indica la percentuale di carica.
-
-%\caption{caption}
-%\label{fig:label}
 
 \newpage
 
@@ -171,7 +167,7 @@ Per la scarica, a differenza della carica, la tensione VC e' negativa (va da -12
 \newpage
 
 \section*{simulazione con qucs}
-Gli schemi precedentemente descritti, ed i grafici ottenuti, realizzati e simulati su qucs provengono dalle simulazioni seguenti:  
+Gli schemi precedentemente descritti, ed i grafici ottenuti, realizzati e simulati su qucs sono riproducibili con le seguenti simulazioni:  
 
 \subsection*{carica}
 
@@ -188,6 +184,7 @@ Gli schemi precedentemente descritti, ed i grafici ottenuti, realizzati e simula
 \newpage
 
 \section*{conclusioni e osservazioni}
-
+La simulazione del circuito, nonostante sia andata a buon fine in entrambi i casi (carica e scarica), ha prodotto un risultato inizialmente inaspettato: il voltometro, infatti, restituisce che la tensione VC ai capi del condensatore e' negativa, cio' puo' vuol dire che quando si scarica il condensatore i terminali cambiano potenziale (ipotesi poco probabile).
+Bisogna anche considerare che abbiamo usato 2 circuiti diversi per la carica e la scarica, quindi, l'ipotesi piu' probabile, anzi certa, sarebbe che qucs quando deve gestire un generatore, o condensatore inizialmente carico, imposti il potenziale dei terminali sempre nello stesso orientamento, quindi, non avendo informazioni sul come si sia caricato il condensatore, esegue la simulazione con le impostazioni convenzionali. Tale ipotesi andrebbe verificata con un circuito che si occupi sia di carica che di scarica dello stesso condensatore, in modo da verificare se il comportamento di qucs e' corretto o meno.
 
 \end{document}
