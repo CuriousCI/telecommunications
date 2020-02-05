@@ -43,7 +43,24 @@ massima supportata (Figura tot) (infatti, se viene applicata una tensione troppo
 sopravvive, come nei condensatori ad aria, le armature si possono fondere). \\
 
 Esistono diversi tipi di condensatori come indicato nella (Figura tot): ceramici, a poliestere, variabili, ed elettrolitici; esistono piccoli condensatori che si attaccano direttamente all PCB
-come nel caso della (Figura tot). In particolare c'e' un discorso da fare sui condensatori elettrolitici: oltre ad essere polarizzati (quindi vanno inseriti nel verso corretto, altrimenti possono rompersi), essendo condensatori in genere molto capienti, contenenti acido, hanno una \textit{"valvola"} nella parte superiore, per rilasciare la pressione nel caso di tensioni troppo elevate, in modo da non esplodere (Figura tot).
+come nel caso della (Figura tot). In particolare c'e' un discorso da fare sui condensatori elettrolitici: oltre ad essere polarizzati (quindi vanno inseriti nel verso corretto, altrimenti possono rompersi), essendo condensatori in genere molto capienti, contenenti acido, hanno una \textit{"valvola"} nella parte superiore, per rilasciare la pressione nel caso di tensioni troppo elevate, in modo da non esplodere (Figura tot). \\ 
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.3\linewidth}
+    \includegraphics[width=\linewidth]{data/condensatore-reale.jpg}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\linewidth}
+    \includegraphics[width=\linewidth]{data/PCB-capacitor.png}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.3\linewidth}
+    \includegraphics[width=\linewidth]{data/condensatore-elettrolitico-valvola.jpg}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\linewidth}
+    \includegraphics[width=\linewidth]{data/capacitors-types.png}
+  \end{subfigure}
+\end{figure}
 
 \subsection*{formule e grafici}
 Per determinare la capacita' effettiva del condensatore, basandoci sulla sua composizione fisica e chimica si usa la formula 
@@ -88,6 +105,8 @@ avendo infatti x = 100(1 - e\textsuperscript{-t/$\tau$}), dove x indica la perce
     \includegraphics[width=\linewidth]{data/carica-tensioni.png}
   \end{subfigure}
 \end{figure}
+
+
 
 \subsection*{grafici carica}
 \begin{figure}[h!]
