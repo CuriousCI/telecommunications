@@ -1,10 +1,12 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{url}
 \usepackage{fixltx2e}
+
+%\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 %\usepackage{subcaptions}
 
 \pagenumbering{gobble}
@@ -28,13 +30,44 @@ qucs versione 0.0.19 (\url{http://qucs.sourceforge.net/})
 
 \subsection*{definizione}
 Il condensatore e un componente elettronico che ha la capacita' di immagazinare energia sotto forma di campo elettrostatico. \\
-Tale energia, nel caso di un condensatore ideale, viene conservata all'infinito (nel caso reale, essendo che tutto e' fatto di materiale, tutto ha una resistenza, per cui, anche se dopo molto, il condensatore si scarica)
+Tale energia, nel caso di un condensatore ideale, viene conservata all'infinito.\\
+(nel caso reale, essendo che tutto e' fatto di materiale, tutto ha una resistenza, per cui, anche se molto lentamente, il condensatore si scarica)
 
 \subsection*{composizione}
-Il condensatore e' composto da due conduttori detti armature, o piatti, separati da un materiale isolante detto dielettrico
+Il condensatore e' composto da due conduttori detti armature, o piatti, separati da un materiale isolante detto dielettrico. \\
+In particolare, quando viene applicata una tensione ai capi delle armature, le piccole cariche all'interno del dielettrico \textit{"ruotano"} in modo da allinearsi con con il campo elettrico.
+Cio' e dimostrabile dal fatto che il condensatore si riscalda, fenomeno dovuto all'attrito generato dalla rotazione di queste cariche. \\
+
+Su ogni condensatore vengono indicati la capacita' e la tensione 
+massima supportata (Figura tot) (infatti, se viene applicata una tensione troppo alta, gli elettroni del dielettrico raggiungono la banda di conduzione, per cui il dielettrico viene attraversato da una carica \textit{distruptiva}, e il condensatore esplode; anche nel caso in cui il dielettrico
+sopravvive, come nei condensatori ad aria, le armature si possono fondere). \\
+
+Esistono diversi tipi di condensatori come indicato nella (Figura tot): ceramici, a poliestere, variabili, ed elettrolitici; esistono piccoli condensatori che si attaccano direttamente all PCB
+come nel caso della (Figura tot). In particolare c'e' un discorso da fare sui condensatori elettrolitici: oltre ad essere polarizzati (quindi vanno inseriti nel verso corretto, altrimenti possono rompersi), essendo condensatori in genere molto capienti, contenenti acido, hanno una \textit{"valvola"} nella parte superiore, per rilasciare la pressione nel caso di tensioni troppo elevate, in modo da non esplodere (Figura tot).
 
 \subsection*{formule e grafici}
-C=$\epsilon$\textsubscript{0}$\epsilon$\textsubscript{r}$\frac{S}{d}$
+Per determinare la capacita' effettiva del condensatore, basandoci sulla sua composizione fisica e chimica si usa la formula 
+%\begin{equation}
+%C=\varepsilon\textsubscript{0}\varepsilon\textsubscript{r}\frac{S}{d}
+%\end{equation}
+C = $\varepsilon$\textsubscript{0}$\varepsilon$\textsubscript{r}$\frac{S}{d}$
+dove $\varepsilon$\textsubscript{0} indica la 
+\textit{costante dielettrica nel vuoto} (4$\pi\cdot$10\textsuperscript{-12}),
+dove $\varepsilon$\textsubscript{r} indica la \textit{costante dielettrica relativa al materiale},
+S la superficie sovrapposta delle armature e d la distanza fra le armature. \\
+
+Un altro dei parametri fondamentali quando si considera il condensatore all'interno
+del circuito e' il tempo di carica, determinabile con t = 5$\tau$, dove $\tau$, 
+che indica la \textit{"velocita'"} di carica del condensatore, e' dato dal prodotto fra 
+la capacita' C del condensatore e la resistenza totale R, vista dal condensatore: $\tau$ = RC. \\
+
+La curva di carica e di scarica del condensatore e' di tipo esponenziale, avendo
+Q(t) = $\varepsilon$C(1 - e\textsuperscript{-t/$\tau$}).
+Sapendo che Q = CV $\Rightarrow$ V = $\frac{Q}{C}$, si avra' \\
+V(t) = $\varepsilon$(1 - e\textsuperscript{-t/$\tau$}) (Figura tot). \\
+
+Anche la percentuale di carica del condensatore in funzione al tempo e' di tipo esponenziale
+avendo infatti x = 100(1 - e\textsuperscript{-t/$\tau$}), dove x indica la percentuale di carica.
 
 %\caption{caption}
 %\label{fig:label}
