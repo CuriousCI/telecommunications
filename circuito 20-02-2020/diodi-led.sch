@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=206,85,1416,1354,0.751315,0,89>
+  <View=206,85,1416,1373,0.751317,0,120>
   <Grid=10,10,1>
   <DataSet=diodi-led.dat>
   <DataDisplay=diodi-led.dpl>
@@ -57,9 +57,9 @@
   <540 860 540 940 "" 0 0 0 "">
 </Wires>
 <Diagrams>
-  <Rect 730 1259 572 449 3 #c0c0c0 1 00 1 0 0.005 0.05 0 0 1 5 1 -1 0.2 1 315 0 225 "" "" "">
-	<"VD.V" #0000ff 0 3 0 0 0>
+  <Rect 730 1259 572 449 3 #c0c0c0 1 00 1 0 0.005 0.05 0 0 1 5 1 -1 0.2 1 315 0 225 "Id" "" "">
 	<"VD1.V" #ff0000 0 3 0 0 0>
+	<"Vd" #ff00ff 0 3 0 0 0>
   </Rect>
 </Diagrams>
 <Paintings>
